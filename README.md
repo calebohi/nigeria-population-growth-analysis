@@ -16,7 +16,7 @@ The goal is to understand how population growth varies spatially and identify re
 - **Administrative Boundaries**: HDX (OCHA) - Nigeria Admin Level 1 (States)  
   https://data.humdata.org/dataset/cod-ab-nga  
 
-All datasets used in this project are included in the /data folder to ensure full reproducibility of the analysis.
+All datasets used in this project are included in the `/data` folder to ensure full reproducibility of the analysis.
 
 ## ⚙️ Methodology
 ### 1. Data Importation
