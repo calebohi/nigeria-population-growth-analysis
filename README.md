@@ -23,7 +23,7 @@ All datasets used in this project are included in the `/data` folder to ensure f
 Population raster datasets for the years 2000, 2010, and 2020 were obtained from the WorldPop database and imported into QGIS.
 Additionally, Nigeria’s administrative boundary shapefile (Admin Level 1 - states) was loaded into the project.
 
-<img src="images/imported_layers.jpg" width="75%">
+<img src="images/imported_layers.jpg" width="85%">
 
 ### 2. Data Preparation
 The raster layers and administrative boundary shapefile were verified to ensure they shared the same coordinate reference system (CRS).
@@ -56,7 +56,7 @@ Output Column Prefix:
 pop_2000_
 → Used to label the resulting attribute fields
 
-<img src="images/zonal_statistics.jpg" width="75%">
+<img src="images/zonal_statistics.jpg" width="85%">
 
 🔁 **Repetition for Multiple Years**
 
@@ -92,7 +92,7 @@ fid (common unique identifier)
 - Fields Selected:
 Only the required population field (e.g., pop_2010_sum)
 
-<img src="images/data_joining.jpg" width="75%">
+<img src="images/data_joining.jpg" width="85%">
 
 👉 Result:
 A new layer containing population data for 2000 and 2010
@@ -160,7 +160,7 @@ Using:
 
 ```round((("pop_2020_sum" - "pop_2010_sum") / "pop_2010_sum") * 100, 2)```
 
-<img src="images/field_calculator.jpg" width="75%">
+<img src="images/field_calculator.jpg" width="85%">
 
 🔁 **Final Output of This Step**
 
@@ -209,7 +209,7 @@ After calculating the population growth rates, the results were visualized using
 - The South-West and parts of the North-East showed relatively higher growth
 
 ## 🗺️ Final Output
-<img src="images/nigeria_population_growth_rate.png" width="75%">
+<img src="images/nigeria_population_growth_rate.png" width="85%">
 
 ## 🛠️ Tools Used
 - QGIS
